@@ -6,6 +6,8 @@ To develop effective advanced driving assistance systems, it is important to acc
 
 In this Project two different experimental studies were performed. The first was an automatic classification of the road type. In this experimental study, image data of five classes (Class-A-B-C-D-E) were used. The second experimental study was to determine the road quality. In the second experimental study, a Class-F data set containing distorted road images and a mixture of Class-A-B-C-D-E non-distorted images was used. Furthermore, under each experimental study, two different datasets were used. The first of these includes images without any preprocessing, and the dimensions of the images in the dataset were resized as 128×128, passed through the model, and their performance was evaluated. In the second dataset, the images were passed through a designed filter using the VP method, and only the horizontal side of the vanishing point was cropped according to the optimum vanishing point. A single CNN model was used in all experimental studies. This CNN model is a new model designed for this work and is called RTQ-CNN, as mentioned previously. This model was applied to the dataset, and the classification performance was evaluated. 
 
+My dataset is https://drive.google.com/open?id=1cTRTblLZT-sUU7EtHVUv6ilBrQwGbfTk
+
 # Results:
   Models	                  Road Type Classification Accuracy 	                          Road Quality Classification Accuracy
 	                      Raw Images  	Pre-Processed Images with VP	                Raw Images        Pre-Processed Images with VP
